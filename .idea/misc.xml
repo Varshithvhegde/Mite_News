@@ -4,10 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/drawable/bg_btn_signup.xml" value="0.142" />
+        <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/activity_add_post.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/activity_feed.xml" value="0.2" />
         <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/activity_my_posts.xml" value="0.25729166666666664" />
         <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/activity_profile.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/activity_sign_up.xml" value="0.1796875" />
+        <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/layout/post_list.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/varsh.LAPTOP-IG9S62OJ/AndroidStudioProjects/MiteNews/app/src/main/res/menu/menu.xml" value="0.24351851851851852" />
       </map>
     </option>
   </component>

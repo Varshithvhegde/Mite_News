@@ -16,7 +16,7 @@
       
         <TextView
             android:textSize="20sp"
-            android:text="rushit nai"
+            android:text="Varshtih"
             android:textStyle="italic"
             android:padding="2dp"
             android:textColor="#ffff"

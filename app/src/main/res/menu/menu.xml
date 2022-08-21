@@ -13,6 +13,11 @@
         app:showAsAction="never"
 
         ></item>
+    <item android:id="@+id/Action_myposts"
+        android:title="My Posts"
+        app:showAsAction="never"
+
+        ></item>
     <item
         android:id="@+id/logout"
         android:title="log out"
