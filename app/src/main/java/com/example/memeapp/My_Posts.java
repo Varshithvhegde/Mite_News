@@ -43,6 +43,7 @@ public class My_Posts extends AppCompatActivity {
     private DatabaseReference dr;
     static String get_uid;
     String uid="Varshith V hegde";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,6 +57,7 @@ public class My_Posts extends AppCompatActivity {
         post_list = (RecyclerView) findViewById(R.id.postlist);
         post_list.setHasFixedSize(true);
         post_list.setLayoutManager(new LinearLayoutManager(this));
+
 //        user = FirebaseAuth.getInstance().getCurrentUser();
 //        firebaseAuth = FirebaseAuth.getInstance();
 //        get_uid = user.getUid();
@@ -103,7 +105,7 @@ public class My_Posts extends AppCompatActivity {
         firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Blog_Data, My_Posts.PostHolder>(options) {
             @Override
             protected void onBindViewHolder(@NonNull My_Posts.PostHolder holder, int position, @NonNull Blog_Data model) {
-
+             //   Toast.makeText(getApplicationContext(), model.getEmail(), Toast.LENGTH_SHORT).show();
                     holder.setUsername(model.getUsername());
                     holder.setCaption(model.getCaption());
                     holder.setImage(getApplicationContext(), model.getImage());

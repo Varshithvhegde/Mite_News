@@ -7,14 +7,16 @@ public class Blog_Data {
     private String caption;
     private String username;
     private String image;
+    private String email;
     private String timestamp;
     public Blog_Data(){
 
     }
-    public Blog_Data(String username, String caption, String image) {
+    public Blog_Data(String username, String caption, String image,String email) {
         this.username = username;
         this.caption = caption;
         this.image = image;
+        this.email= email;
 
     }
 
@@ -41,5 +43,6 @@ public class Blog_Data {
     public void setImage(String image) {
         this.image = image;
     }
+    public String getEmail(){return email;}
 
 }
