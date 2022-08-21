@@ -41,7 +41,5 @@ public class Blog_Data {
     public void setImage(String image) {
         this.image = image;
     }
-//    public void setTimestamp(Map<String, String> timeStamp) {this.timestamp= timestamp;}
-//    public String getTimestamp() {return timestamp;}
 
 }
